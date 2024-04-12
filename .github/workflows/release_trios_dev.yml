@@ -18,5 +18,5 @@ jobs:
       env:
         SLACK_CHANNEL: ci-builds
         SLACK_USERNAME: trios-bot
-        SLACK_TOKEN: Zf9sZixRM1RA8JZs1RiUfKSq
+#        SLACK_TOKEN: Zf9sZixRM1RA8JZs1RiUfKSq
         SLACK_WEBHOOK: https://hooks.slack.com/services/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
