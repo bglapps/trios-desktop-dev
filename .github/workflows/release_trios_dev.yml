@@ -8,20 +8,14 @@ on:
     tags:
       - 'v*'
 jobs:
-  build:
-
+  slackNotification:
+    name: Slack Notification
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
-    - uses: actions/checkout@v3
-    - name: slack-notify-release-action
-      uses: italia/slack-notify-release-action@v0.4.0
-      with:
-        slack_token: ${{ secrets.SLACK_TOKEN }}
-        channel_id: C05D0D54KFD
-        project_name: Trios Desktop app develop
+    - uses: actions/checkout@v2
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_CHANNEL: ci-builds
+        SLACK_TOKEN: Zf9sZixRM1RA8JZs1RiUfKSq
+        SLACK_WEBHOOK: https://hooks.slack.com/services/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
