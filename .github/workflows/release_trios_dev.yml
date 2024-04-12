@@ -13,5 +13,5 @@ jobs:
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_CHANNEL: voip_trien_khai_bcy
-        SLACK_WEBHOOK: https://hooks.slack.com/services/T6TTQ39HP/B06UDDT636V/
+        SLACK_WEBHOOK: https://hooks.slack.com/services/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
         SLACK_TOKEN: 9cYo1uThhm8TizDNWakgODzh
