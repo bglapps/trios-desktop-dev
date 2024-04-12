@@ -6,13 +6,9 @@ jobs:
   release_job:
     runs-on: ubuntu-latest
     steps:
-      # - uses: actions/checkout@v3
-      #   with:
-      #     fetch-depth: 0
-      #     ref: main
       - name: slack-notify-release-action
         uses: italia/slack-notify-release-action@v0.4.0
         with:
           slack_token: Zf9sZixRM1RA8JZs1RiUfKSq
           channel_id: C05D0D54KFD
-          project_name: Trios Desktop app
+          project_name: Trios Desktop app develop
