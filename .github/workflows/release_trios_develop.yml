@@ -14,5 +14,5 @@ jobs:
         uses: italia/slack-notify-release-action@v0.4.0
         with:
           slack_token: Zf9sZixRM1RA8JZs1RiUfKSq
-          channel_id: C05374Z8C6M
+          channel_id: C05D0D54KFD
           project_name: Trios Desktop app
