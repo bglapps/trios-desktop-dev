@@ -13,6 +13,6 @@ jobs:
       - name: Notify new release on Slack
         uses: italia/slack-notify-release-action@v0.4.0
         with:
-          slack_token: "Zf9sZixRM1RA8JZs1RiUfKSq"
+          slack_token: Zf9sZixRM1RA8JZs1RiUfKSq
           channel_id: C05D0D54KFD
           project_name: Trios Desktop app
