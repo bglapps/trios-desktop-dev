@@ -16,6 +16,6 @@ jobs:
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2
       env:
-        SLACK_CHANNEL: ci-builds
+        SLACK_CHANNEL: C05D0D54KFD
         SLACK_TOKEN: Zf9sZixRM1RA8JZs1RiUfKSq
         SLACK_WEBHOOK: https://hooks.slack.com/services/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
