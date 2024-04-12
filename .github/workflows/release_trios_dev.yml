@@ -14,4 +14,4 @@ jobs:
       env:
         SLACK_CHANNEL: voip_trien_khai_bcy
         SLACK_WEBHOOK: https://hooks.slack.com/services/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
-        SLACK_TOKEN: 9cYo1uThhm8TizDNWakgODzh
+        # SLACK_TOKEN: 9cYo1uThhm8TizDNWakgODzh
